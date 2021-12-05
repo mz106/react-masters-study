@@ -1,0 +1,43 @@
+
+.container__interview {
+    border: 1px solid red;
+    height: 70vh;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.container__interview--inner {
+    width: 100%;
+    height: 90%;
+    border: 1px solid yellow;
+}
+
+.container__interview--left {
+    width: 40%;
+    height: 80%;
+    border: 1px solid green;
+    margin: auto;
+    flex-direction: column;
+}
+
+.container__interview--center {
+    width: 40%;
+    height: 80%;
+    border: 1px solid green;
+    margin: auto;
+    flex-direction: column;
+}
+
+.container__interview--right {
+    width: 40%;
+    height: 80%;
+    border: 1px solid green;
+    margin: auto;
+    flex-direction: column;
+}
+
+.container__interview--navlink {
+    height: 5vh;
+    justify-content: center;
+}

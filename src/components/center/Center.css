@@ -1,0 +1,8 @@
+
+.container__centre {
+    height: 70vh;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid red;
+}
