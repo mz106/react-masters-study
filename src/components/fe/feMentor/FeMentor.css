@@ -24,6 +24,16 @@
 
 .container__fementor--img {
     flex-direction: column;
+    justify-content: center;
+}
+
+.fementor__link {
+    width: 100%;
+}
+
+img {
+    object-fit: contain;  
+    width: 100%;  
 }
 
 .container__fementor--right {

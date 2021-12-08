@@ -9,6 +9,7 @@ import Be from './components/be/Be';
 import Fe from './components/fe/Fe';
 import Interview from './components/interview/Interview';
 import FeMentor from './components/fe/feMentor/FeMentor';
+import Hackdesign from './components/fe/hackdesign/Hackdesign';
 
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/backend" element={<Be />} />
           <Route path="/interview" element={<Interview />} /> 
           <Route path="/fe/fementor" element={<FeMentor />} />
+          <Route path="/fe/hackdesign" element={<Hackdesign />} />
         </Routes>
       </div>
       
